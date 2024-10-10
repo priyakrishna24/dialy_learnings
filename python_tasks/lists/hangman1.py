@@ -20,7 +20,7 @@ while not gameover:
                 blanks[i]=guess
         print('current state :' + ''.join(blanks))
     else:
-        print(f'You guessed {guess}, that not in the word.You lose a life')
+        print(f'You guessed {guess}, that is not in the word.You lose a life')
         lives-=1
         print(f'********************{lives}/{len(chosen_word)}*****************')
         
