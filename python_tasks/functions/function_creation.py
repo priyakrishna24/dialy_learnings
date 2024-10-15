@@ -20,8 +20,8 @@ def greet_with_multiple(name,location):
     print(f'Hii {name}')
     print(f'How are you, {name}')
     print(f'What is the weather update in {location}')
-
-greet_with_multiple(location='Nellore',name='priya')
+greet_with_multiple('priya','Nellore')                      #This the positional arguments
+greet_with_multiple(location='Nellore',name='priya')        #These are the keyword arguments
 
 def life_in_weeks(age):
     
